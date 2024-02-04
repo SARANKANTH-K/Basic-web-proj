@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FEEDBACK FORM</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+         <link href="feedback.css" type="text/css" rel="stylesheet"/>
+         <script type="text/javascript" src="studentlogin.js" ></script>
+    </head>
+    <body>
+        <div class="container mt-4 shadow-lg">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h2 class="text-white">FEEDBACK FORM</h2>
+                    <p class="text-white">We would love to hear your thoughts, concerns or problem with anything so we can improve</p>
+                    <br>
+                    <form method="post" action="" name="myform" onsubmit="return validatefeedbackform()">
+                        <h4>Feedback type</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="radio" id="1" name="feed1" class="pointer" value="Comments">&nbsp;&nbsp;<label>Comments</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="1" name="feed1"  value="Bug Report">&nbsp;&nbsp;<label>Bug Report</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="1" name="feed1" value="Questions" >&nbsp;&nbsp;<label>Questions</label>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3 mb-3">
+                            <label class="form-label">Full Name</label> 
+                            <input type="text" name="name" class="form-control" >
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="form-label">Email</label> 
+                            <input type="email" name="email" class="form-control" required="">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="form-label">Describe Feedback</label> 
+                            <textarea rows="4" class="form-control" required="" name="feedback"></textarea>
+                        </div>
+                      <button type="submit" class="btn btn-primary" formaction="http://localhost:3400/feedback">Submit feedback</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

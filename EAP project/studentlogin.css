@@ -1,0 +1,103 @@
+/*body{
+    position: relative;
+    background-image: url("clg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%
+  }*/
+@import url('https://fonts.googleeapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.login h1
+ {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    max-width: 1280px;
+    margin:auto;
+    padding: 40px ;
+ }  
+      
+section {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(#2980b9,#E90064);
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.forms
+{
+    margin:auto;
+    position: absolute;
+    top: 24%;
+    left: 36%;
+    margin-right: 50px;
+    font-family: 'poppins',sans-serif;
+    max-width: 500px; 
+    background-color: #fff;
+    border-radius: 30px;
+}
+.forms h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 1px solid silver;
+
+}
+.forms form{
+    padding: 0 40px;
+    margin:auto;
+   max-width: 800px;
+    box-sizing:content-box;
+}
+
+.forms form .form-control
+{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+.forms form .forget
+{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+form button{
+    background-color: #395144;
+    margin-left: 21%;
+    border-radius: 40px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    outline: none;   
+}
+.register{
+    padding: 10px;
+}
+.forget a:hover{
+    color:#121212;
+}
+
+.forms form button:hover
+{
+    opacity: .7;
+}
+
+@media screen and(max-width:400px)
+{
+    .form{
+        flex-wrap:wrap;
+    }
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    color: #fff;
+    margin:auto;
+    padding-top: 15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+section {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(#42032C,#FFE15D);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.forms
+{
+    margin-top: 10px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-family: 'poppins',sans-serif;
+    width: 500px;
+    background-color: #fff;
+    height: 80%;
+    border-radius: 30px;
+}
+.forms1
+{
+    margin-top: 10px;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    font-family: 'poppins',sans-serif;
+    width: 500px;
+    background-color: #fff;
+    height: 80%;
+    border-radius: 30px;
+}
+.forms1 form .form-control
+{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0px;
+    padding: 0 10px;
+}
+.forms1 form{
+    text-align: center;
+    padding: 0 40px;
+    box-sizing:content-box;
+}
+.forms1 h3{
+    padding-bottom: 18px;
+    border-bottom: 1px solid silver;
+}
+form .adlog{
+    text-align: center;
+    font-size: 20px;
+}
+.forms h3{
+    padding-bottom: 18px;
+    border-bottom: 1px solid silver;
+}
+.forms form{
+    text-align: center;
+    padding: 0 40px;
+    box-sizing:content-box;
+}
+.forms form .form-control
+{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0px;
+    padding: 0 10px;
+}
+form .inputbox{
+    text-align: left;
+    font-size: 20px;
+}
+form .id{
+    text-align: left;
+    font-size: 20px;
+}
+form .dob{
+
+    text-align: left;
+    font-size: 20px;
+}
+form .email{
+    text-align: left;
+    font-size: 20px;
+}
+form .mobile{
+    text-align: left;
+    
+    font-size: 20px;
+}
+form .address{
+    text-align: left;
+   
+    font-size: 20px;
+}
+form .department{
+    text-align: left;
+    
+    font-size: 20px;
+}
+form .marks{
+    text-align: left;
+    font-size: 20px;
+}

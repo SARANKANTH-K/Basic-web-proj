@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+img{
+    padding-left:20px;
+}
+.sk{
+    color: #f1f1f1;
+}
+span {
+    font-size: 20px;
+    font-weight: 100;
+    color: indigo;
+    
+    margin-left: 390px;
+    font-weight: bolder;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: url(clg1.jpg) ;
+    background-size: cover;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    background-repeat: no-repeat;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner-container{
+    width: 100%;
+    background: linear-gradient(#2980b9,#E90064);
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    font-weight: bold;
+    padding-left: 50px;
+    color: #f1f1f1;
+}
+
+.text{
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    
+}
+.skill1{
+    font-weight: 700;
+    font-size: 13px;
+    color: #f1f1f1;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 30px;
+}

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>signup</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="signup1.css" rel="stylesheet" />
+        <script type="text/javascript" src="studentlogin.js" ></script>
+     </head>
+    <body>
+        <section>
+        <div class="pro">
+            <h1>SIGNUP</h1>
+        </div>
+        <div class="container">
+                <form class="forms" action="" method="post" name="myform" id="myform" onsubmit="return validatesignupform()">
+                    <div class="header">
+                        <h3>signup</h3>
+                        </div>
+                       
+                   <div class="form-control">
+                    <p id="help" style="border:none; height:20pt; color:brown "></p>
+                      <label for="usr">Student Name</label>
+                   <input name="name" class="form-control" id="fname" type="text" autofocus="on" >
+                </div>
+                <div class="form-control">
+                    <label for="pwd">Password</label>
+               <input type="password" name="password" id="pwd" class="form-control" required>
+                </div>
+                <div class="form-control">
+                    <label for="">Email-Id</label>
+                    <input type="text" id="em" name="email" class="form-control">
+                </div>
+               
+                <div class="form-control">
+                <p>Gender</p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <input type="radio" name="feed" class="pointer" value="Male">&nbsp;&nbsp;<label>Male</label>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="feed" value="Female" >&nbsp;&nbsp;<label>Female</label>
+                    </div>
+                </div>
+                </div>
+                <div class="form-control">
+                    <label for="">Date of Birth</label>
+                    <input type="date" name="dob" class="form-control">
+                </div>
+                <div class="form-control">
+                    <label for="phone">Mobile Number</label>
+                    <input type="tel" id="phno" name="phone" class="form-control">
+                </div>
+                <!--<button type="submit" id="submit" class="btn btn-primary">submit</button>
+                <button type="reset"  id="reset" class="btn btn-primary">Reset</button>-->
+                <button type="Submit" class="btn btn-primary" id="submit" formaction="http://localhost:3400/save">Submit</button>
+                <button type="reset" class="btn btn-danger" id="reset" >Reset</button>
+             </form>
+           </div>
+           </section>
+    </body>
+</html>
